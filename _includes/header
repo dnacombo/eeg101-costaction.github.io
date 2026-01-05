@@ -1,0 +1,32 @@
+<header class="site-header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="{{ '/' | relative_url }}">
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" height="40" class="d-inline-block align-text-top me-2">
+        {% endif %}
+        {{ site.title }}
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          {% assign nav_items = site.data.navigation %}
+          {% for item in nav_items %}
+            {% comment %} Determine active state: check page.url or page.path contains item.match {% endcomment %}
+            {% assign is_active = false %}
+            {% if item.match and page.url %}
+              {% if page.url == item.url or page.url contains item.match or page.path contains item.match %}
+                {% assign is_active = true %}
+              {% endif %}
+            {% endif %}
+            <li class="nav-item">
+              <a class="nav-link {% if is_active %}active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

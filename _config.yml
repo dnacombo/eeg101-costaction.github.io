@@ -3,7 +3,7 @@ email: robert.oostenveld@donders.ru.nl
 description: EEG101 COST Action
 baseurl: ""
 url: "https://eeg101-costaction.github.io"
-logo: /assets/images/logo.png
+logo: /assets/images/logo-v1.png
 
 # Build settings
 markdown: kramdown

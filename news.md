@@ -5,7 +5,7 @@ title: News
 
 Stay connected and receive the latest updates:
 
-- Follow our activities on [BlueSky](https://bsky.app/profile/eeg101costaction.bsky.social) and LinkedIn (link to be added, TODO).
+- Follow our activities on [BlueSky](https://bsky.app/profile/eeg101costaction.bsky.social) and [LinkedIn](https://www.linkedin.com/groups/16491058).
 - Subscribe to our mailing list (details to be added, TODO).
 - Attend our workshops and conferences (links to be added, TODO).
 

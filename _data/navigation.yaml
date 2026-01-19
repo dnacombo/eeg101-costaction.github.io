@@ -10,6 +10,9 @@
 - title: News
   url: /news
   match: news
+- title: Join
+  url: /join
+  match: join
 - title: Contact
   url: /contact
   match: contact

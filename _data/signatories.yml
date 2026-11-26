@@ -4,10 +4,10 @@
 # ticked 'I'm happy for my name to be displayed publicly' appear here, and
 # only their name and affiliation are ever written to this file.
 
-generated: "2026-11-25"
+generated: "2026-11-26"
 source: "https://sign-cf.eeg101.eu/signatories/"
-total: 200
-public_count: 159
+total: 201
+public_count: 160
 
 people:
   - name: "Enes Abanoz"
@@ -258,6 +258,8 @@ people:
     affiliation: "SAGE University"
   - name: "René Skukies"
     affiliation: "SimTech - University of Stuttgart"
+  - name: "Cameron Smith"
+    affiliation: "University of Leeds"
   - name: "Piotr Sobaniec"
     affiliation: "Medical University of Bialystok"
   - name: "Ronen Sosnik"
